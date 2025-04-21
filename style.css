@@ -32,12 +32,12 @@ li{
 }
 .topbar{
 	display: flex;
+	justify-content: space-between;
 }
 
 .navbar{
 	display: flex;
 	justify-content: space-between;
-	margin-left: 650px;
 	font-weight: 300;
 }
 .navItem{
@@ -46,7 +46,7 @@ li{
 	padding: 5px;
 	font-size: 1.8vh;
 	margin-top: 50px;
-	margin-left: 30px;
+	margin-left: 20px;
 }
 .navItem:hover{
 	color:#3f3fd1
@@ -65,8 +65,8 @@ li{
 
 .navbarHome{
 	display: flex;
-	justify-content: space-between;
-	margin-left: 560px;
+	justify-content: space-around;
+	margin-left: 500px;
 	font-weight: 300;
 	
 }
